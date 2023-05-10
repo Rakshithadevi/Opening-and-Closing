@@ -37,9 +37,9 @@ from google.colab.patches import cv2_imshow
 import numpy as np
 
 # Create the Text using cv2.putText
-img1 = np.zeros((100,270), dtype = 'uint8')
+img1 = np.zeros((100,600), dtype = 'uint8')
 font = cv2.FONT_HERSHEY_SIMPLEX
-cv2.putText(img1,'RAKSHITHA',(5,70), font, 2,(255),5,cv2.LINE_AA)
+cv2.putText(img1,'RAKSHITHA DEVI J',(5,70), font, 2,(255),5,cv2.LINE_AA)
 plt.imshow(img1,'gray')
 
 # Create the structuring element
@@ -61,10 +61,10 @@ plt.imshow(image2, 'gray')
 ## Output:
 
 ### Display the input Image
-![image](https://github.com/Rakshithadevi/Opening-and-Closing/assets/94165326/d841d269-d590-462d-babb-a0016d7cc414)
+![image](https://github.com/Rakshithadevi/Opening-and-Closing/assets/94165326/4c9f5dac-ea07-4831-9376-fae9a5f28f5c)
 ### Display the result of Opening
-![image](https://github.com/Rakshithadevi/Opening-and-Closing/assets/94165326/6d70a9f7-b3a9-4305-90c6-88764a101379)
+![image](https://github.com/Rakshithadevi/Opening-and-Closing/assets/94165326/f6828447-e1f3-4757-802f-7f3e16760f84)
 ### Display the result of Closing
-![image](https://github.com/Rakshithadevi/Opening-and-Closing/assets/94165326/f816d5f3-354e-4f06-b99f-702e5342d0d1)
+![image](https://github.com/Rakshithadevi/Opening-and-Closing/assets/94165326/c9ea4bec-a19e-4803-bba7-59d0bc1659a6)
 ## Result
 Thus the Opening and Closing operation is used in the image using python and OpenCV.
